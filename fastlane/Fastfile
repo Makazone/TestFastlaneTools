@@ -1,18 +1,11 @@
-update_fastlane
-
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
 fastlane_version "1.12.0"
 
 before_all do
-  ENV["CRASHLYTICS_PATH"] = "/Developer/TestFastlaneTools/Pods/Crashlytics/Crashlytics.framework"
-
-  # cocoapods
-
-  # increment_build_number
-
-
-  # xctool # run the tests of your app
+  ENV["CRASHLYTICS_FRAMEWORK_PATH"] = "/Developer/TestFastlaneTools/Pods/Crashlytics/Crashlytics.framework"
+  ENV["CRASHLYTICS_API_TOKEN"] = "55c38003fe168a16c9624d18feed343b7867318d" 
+  ENV["CRASHLYTICS_BUILD_SECRET"] = "90f75fd7ab4ee2fafbecdf583f7d811bf68a67c513c7a042a20088404119362e" 
 end
 
 desc "Submit a new Beta Build to Crashlytics"
@@ -39,12 +32,7 @@ lane :beta do
   )
 
   # distribute beta
-  crashlytics(
-    crashlytics_path: ENV["CRASHLYTICS_PATH"], # path to your 'Crashlytics.framework'
-    api_token: '55c38003fe168a16c9624d18feed343b7867318d',
-    build_secret: '90f75fd7ab4ee2fafbecdf583f7d811bf68a67c513c7a042a20088404119362e',
-    ipa_path: lane_context[SharedValues::IPA_OUTPUT_PATH]
-  )
+  crashlytics
 
   # Make sure our directory is clean, except for changes Fastlane has made
   clean_build_artifacts
@@ -62,7 +50,3 @@ end
 error do |lane, exception|
   notify "Fastlane failed '#{lane}' with exception '#{exception}'" # Mac OS X Notification
 end
-
-
-# More information about multiple platforms in fastlane: 
-# https://github.com/KrauseFx/fastlane/blob/master/docs/Platforms.md
