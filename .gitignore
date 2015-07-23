@@ -105,3 +105,6 @@ Session.vim
 .netrwhist
 *~
 
+# Fastlane
+
+Fastlane/report.xml
