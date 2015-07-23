@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF2092F1B60824700491E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF2092E1B60824700491E5B /* main.m */; };
+		CAF209321B60824700491E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF209311B60824700491E5B /* AppDelegate.m */; };
+		CAF209351B60824700491E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF209341B60824700491E5B /* ViewController.m */; };
+		CAF209381B60824700491E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF209361B60824700491E5B /* Main.storyboard */; };
+		CAF2093A1B60824700491E5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF209391B60824700491E5B /* Images.xcassets */; };
+		CAF2093D1B60824700491E5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF2093B1B60824700491E5B /* LaunchScreen.xib */; };
+		CAF209491B60824700491E5B /* TestFastlaneToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF209481B60824700491E5B /* TestFastlaneToolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF209431B60824700491E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF209211B60824700491E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF209281B60824700491E5B;
+			remoteInfo = TestFastlaneTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF209291B60824700491E5B /* TestFastlaneTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFastlaneTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF2092D1B60824700491E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF2092E1B60824700491E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAF209301B60824700491E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAF209311B60824700491E5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAF209331B60824700491E5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAF209341B60824700491E5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAF209371B60824700491E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF209391B60824700491E5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAF2093C1B60824700491E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CAF209421B60824700491E5B /* TestFastlaneToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFastlaneToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF209471B60824700491E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF209481B60824700491E5B /* TestFastlaneToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFastlaneToolsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF209261B60824700491E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF2093F1B60824700491E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF209201B60824700491E5B = {
+			isa = PBXGroup;
+			children = (
+				CAF2092B1B60824700491E5B /* TestFastlaneTools */,
+				CAF209451B60824700491E5B /* TestFastlaneToolsTests */,
+				CAF2092A1B60824700491E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF2092A1B60824700491E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF209291B60824700491E5B /* TestFastlaneTools.app */,
+				CAF209421B60824700491E5B /* TestFastlaneToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF2092B1B60824700491E5B /* TestFastlaneTools */ = {
+			isa = PBXGroup;
+			children = (
+				CAF209301B60824700491E5B /* AppDelegate.h */,
+				CAF209311B60824700491E5B /* AppDelegate.m */,
+				CAF209331B60824700491E5B /* ViewController.h */,
+				CAF209341B60824700491E5B /* ViewController.m */,
+				CAF209361B60824700491E5B /* Main.storyboard */,
+				CAF209391B60824700491E5B /* Images.xcassets */,
+				CAF2093B1B60824700491E5B /* LaunchScreen.xib */,
+				CAF2092C1B60824700491E5B /* Supporting Files */,
+			);
+			path = TestFastlaneTools;
+			sourceTree = "<group>";
+		};
+		CAF2092C1B60824700491E5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2092D1B60824700491E5B /* Info.plist */,
+				CAF2092E1B60824700491E5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAF209451B60824700491E5B /* TestFastlaneToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF209481B60824700491E5B /* TestFastlaneToolsTests.m */,
+				CAF209461B60824700491E5B /* Supporting Files */,
+			);
+			path = TestFastlaneToolsTests;
+			sourceTree = "<group>";
+		};
+		CAF209461B60824700491E5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF209471B60824700491E5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF209281B60824700491E5B /* TestFastlaneTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF2094C1B60824700491E5B /* Build configuration list for PBXNativeTarget "TestFastlaneTools" */;
+			buildPhases = (
+				CAF209251B60824700491E5B /* Sources */,
+				CAF209261B60824700491E5B /* Frameworks */,
+				CAF209271B60824700491E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFastlaneTools;
+			productName = TestFastlaneTools;
+			productReference = CAF209291B60824700491E5B /* TestFastlaneTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF209411B60824700491E5B /* TestFastlaneToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF2094F1B60824700491E5B /* Build configuration list for PBXNativeTarget "TestFastlaneToolsTests" */;
+			buildPhases = (
+				CAF2093E1B60824700491E5B /* Sources */,
+				CAF2093F1B60824700491E5B /* Frameworks */,
+				CAF209401B60824700491E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF209441B60824700491E5B /* PBXTargetDependency */,
+			);
+			name = TestFastlaneToolsTests;
+			productName = TestFastlaneToolsTests;
+			productReference = CAF209421B60824700491E5B /* TestFastlaneToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF209211B60824700491E5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Makar;
+				TargetAttributes = {
+					CAF209281B60824700491E5B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CAF209411B60824700491E5B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CAF209281B60824700491E5B;
+					};
+				};
+			};
+			buildConfigurationList = CAF209241B60824700491E5B /* Build configuration list for PBXProject "TestFastlaneTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF209201B60824700491E5B;
+			productRefGroup = CAF2092A1B60824700491E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF209281B60824700491E5B /* TestFastlaneTools */,
+				CAF209411B60824700491E5B /* TestFastlaneToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF209271B60824700491E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF209381B60824700491E5B /* Main.storyboard in Resources */,
+				CAF2093D1B60824700491E5B /* LaunchScreen.xib in Resources */,
+				CAF2093A1B60824700491E5B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF209401B60824700491E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF209251B60824700491E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF209351B60824700491E5B /* ViewController.m in Sources */,
+				CAF209321B60824700491E5B /* AppDelegate.m in Sources */,
+				CAF2092F1B60824700491E5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF2093E1B60824700491E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF209491B60824700491E5B /* TestFastlaneToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF209441B60824700491E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF209281B60824700491E5B /* TestFastlaneTools */;
+			targetProxy = CAF209431B60824700491E5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF209361B60824700491E5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF209371B60824700491E5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF2093B1B60824700491E5B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF2093C1B60824700491E5B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF2094A1B60824700491E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAF2094B1B60824700491E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF2094D1B60824700491E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestFastlaneTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAF2094E1B60824700491E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestFastlaneTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAF209501B60824700491E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestFastlaneToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestFastlaneTools.app/TestFastlaneTools";
+			};
+			name = Debug;
+		};
+		CAF209511B60824700491E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestFastlaneToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestFastlaneTools.app/TestFastlaneTools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF209241B60824700491E5B /* Build configuration list for PBXProject "TestFastlaneTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF2094A1B60824700491E5B /* Debug */,
+				CAF2094B1B60824700491E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF2094C1B60824700491E5B /* Build configuration list for PBXNativeTarget "TestFastlaneTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF2094D1B60824700491E5B /* Debug */,
+				CAF2094E1B60824700491E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAF2094F1B60824700491E5B /* Build configuration list for PBXNativeTarget "TestFastlaneToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF209501B60824700491E5B /* Debug */,
+				CAF209511B60824700491E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF209211B60824700491E5B /* Project object */;
+}
